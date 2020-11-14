@@ -1,0 +1,214 @@
+@charset "UTF-8";
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+.about-background {
+  padding: 60px 0;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.about-background:hover {
+  background-color: rgba(247, 252, 109, 0.9);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.skills-background {
+  padding: 60px 0;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.skills-background:hover {
+  background-color: rgba(158, 252, 111, 0.9);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.other-skill-background {
+  padding: 60px 0;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.other-skill-background:hover {
+  background-color: rgba(247, 169, 96, 0.8);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+header {
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: #7aa2dd;
+}
+
+header h2 {
+  font-family: 幻ノにじみ明朝;
+  color: #fff;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main {
+  padding-top: 56px;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.container__logo {
+  color: #e7ed2b;
+}
+
+.menu {
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  z-index: 10;
+}
+
+.menuButton {
+  cursor: pointer;
+  color: #fff;
+}
+
+.hero__job {
+  margin: 30px 0;
+}
+
+.hero__list {
+  font-size: 18px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #7aa2dd;
+  font-family: 幻ノにじみ明朝;
+}
+
+.part--bold {
+  font-weight: bold;
+  font-size: 17px;
+  color: #7aa2dd;
+}
+
+.part__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #7aa2dd;
+  font-family: 幻ノにじみ明朝;
+  font-weight: bold;
+}
+
+.part__sub-title {
+  font-weight: bold;
+  color: #7aa2dd;
+  margin-top: 30px;
+}
+
+.part__explain {
+  line-height: 2em;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.part a {
+  color: #7aa2dd;
+  font-weight: bold;
+}
+
+/*モーダル*/
+.App {
+  font-family: sans-serif;
+}
+
+.App__button {
+  background-color: #7aa2dd;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+  display: block;
+  margin: 20px auto 0;
+  width: 230px;
+}
+
+.App__button:hover {
+  opacity: 0.8;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.modal {
+  background: none;
+  border: none;
+  text-align: initial;
+}
+
+.modal__explain {
+  line-height: 1.8em;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.modal__close {
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.modal--bold {
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+}
+
+.modal--bold, .modal a {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.modal a {
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.modal a:hover {
+  opacity: 0.5;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+/*モーダルここまで*/
+/*# sourceMappingURL=layout.css.map */

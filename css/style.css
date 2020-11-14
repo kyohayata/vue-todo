@@ -1,0 +1,32 @@
+.container {
+  width: 500px;
+  margin: 50px auto 0;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+ul li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+
+ul li p {
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=style.css.map */

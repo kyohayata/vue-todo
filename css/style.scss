@@ -1,0 +1,23 @@
+.container{
+    width: 500px;
+    margin:50px auto 0;
+}
+ul{
+    margin-top: 20px;
+    li{
+        list-style:none;
+        display: flex;
+        align-items:center;
+        margin: 10px 0;
+        p{
+            margin-right: 10px;
+        }
+    }
+}
+h1{
+    font-size: 20px;
+}
+.done{
+    text-decoration:line-through;
+
+}
